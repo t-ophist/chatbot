@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { SendIcon } from './Icons'
 import { ChatMessage } from '@/types/chat'
 import { sendMessage } from '@/services/api'
